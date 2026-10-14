@@ -1,0 +1,186 @@
+{
+  "name": "UITest",
+  "width": 750,
+  "height": 1624,
+  "isHidden": false,
+  "children": [
+    {
+      "name": "content",
+      "type": "container",
+      "isHidden": false,
+      "x": 64,
+      "y": 314,
+      "w": 623,
+      "h": 763,
+      "children": [
+        {
+          "name": "top",
+          "type": "container",
+          "isHidden": false,
+          "x": 107,
+          "y": 314,
+          "w": 580,
+          "h": 203,
+          "children": [
+            {
+              "name": "label",
+              "type": "text",
+              "isHidden": false,
+              "x": 302,
+              "y": 402,
+              "w": 164,
+              "h": 85,
+              "text": "Props",
+              "fontName": "Baloo2-Bold",
+              "fontSize": 64,
+              "color": "#3D3145"
+            },
+            {
+              "name": "frame_title",
+              "type": "image",
+              "isHidden": false,
+              "x": 107,
+              "y": 314,
+              "w": 526,
+              "h": 203,
+              "sprite": "frame_title.png"
+            },
+            {
+              "name": "btn_close",
+              "type": "image",
+              "isHidden": false,
+              "x": 609,
+              "y": 436,
+              "w": 78,
+              "h": 81,
+              "sprite": "btn_close.png"
+            }
+          ]
+        },
+        {
+          "name": "txt_tip",
+          "type": "text",
+          "isHidden": false,
+          "x": 145,
+          "y": 851,
+          "w": 472,
+          "h": 48,
+          "text": "Randomly eliminate 5 arrows",
+          "fontName": "Baloo2-Bold",
+          "fontSize": 36,
+          "color": "#3D3145"
+        },
+        {
+          "name": "effect",
+          "type": "container",
+          "isHidden": false,
+          "x": 203,
+          "y": 521,
+          "w": 349,
+          "h": 345,
+          "children": [
+            {
+              "name": "icon_lives",
+              "type": "image",
+              "isHidden": true,
+              "x": 296,
+              "y": 627,
+              "w": 168,
+              "h": 143,
+              "sprite": "icon_lives.png"
+            },
+            {
+              "name": "img_prop",
+              "type": "image",
+              "isHidden": false,
+              "x": 313,
+              "y": 579,
+              "w": 145,
+              "h": 223,
+              "sprite": "img_prop.png"
+            },
+            {
+              "name": "efc_shine",
+              "type": "image",
+              "isHidden": false,
+              "x": 224,
+              "y": 542,
+              "w": 301,
+              "h": 187,
+              "sprite": "efc_shine.png"
+            },
+            {
+              "name": "icon_light",
+              "type": "image",
+              "isHidden": false,
+              "x": 203,
+              "y": 521,
+              "w": 349,
+              "h": 345,
+              "sprite": "icon_light.png"
+            }
+          ]
+        },
+        {
+          "name": "btn_free",
+          "type": "container",
+          "isHidden": false,
+          "x": 182,
+          "y": 911,
+          "w": 378,
+          "h": 119,
+          "children": [
+            {
+              "name": "label",
+              "type": "text",
+              "isHidden": false,
+              "x": 254,
+              "y": 945,
+              "w": 244,
+              "h": 62,
+              "text": "Free Revive",
+              "fontName": "Baloo2-Bold",
+              "fontSize": 46,
+              "color": "#FFFFFF",
+              "outline": {
+                "size": 3.0,
+                "color": "#159177",
+                "alpha": 1.0
+              }
+            },
+            {
+              "name": "com_icon_green_9s",
+              "type": "image",
+              "isHidden": false,
+              "x": 182,
+              "y": 911,
+              "w": 378,
+              "h": 119,
+              "sprite": "com_icon_green_9s.png"
+            }
+          ]
+        },
+        {
+          "name": "com_frame_pop",
+          "type": "image",
+          "isHidden": false,
+          "x": 64,
+          "y": 448,
+          "w": 612,
+          "h": 629,
+          "sprite": "com_frame_pop.png"
+        }
+      ]
+    },
+    {
+      "name": "mask_bg",
+      "type": "image",
+      "isHidden": false,
+      "x": 0,
+      "y": 0,
+      "w": 750,
+      "h": 1624,
+      "sprite": "mask_bg.png"
+    }
+  ]
+}
